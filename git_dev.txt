@@ -1,2 +1,12 @@
 curso de git giihub - dev aprender
 git init = para iniciar um projeto git.
+git add "nome do arquivo" = para adicionar o arquivo no controle de versão.
+git status = mostrar se os arquivos já estão incluidos no versionamento de arquivos.
+git add . = para adicionar vários arquivos de uma vez só.
+git commit -m "commit inicial" = para cria a primeira versão do código. Boa prática é escrever o que foi feito no código entre aspas.
+git remote add origin + link = para definir para onde o código será enviado. 
+git pish = para enviar os arquivos para gtihub.
+git push --set-upstream origin master = usase para branch, neste a caso a master.
+________________________________________________________
+ciclo de atualização do código
+teste de atualização
