@@ -10,3 +10,9 @@ git push --set-upstream origin master = usase para branch, neste a caso a master
 ________________________________________________________
 ciclo de atualização do código
 teste de atualização
+________________________________________________________
+verificar histórico de atualização
+git reflog = mostra as informações através dos commits criados.
+___________________________________________________________
+como navegar entre as versões dos seus códigos
+git reset --hard + código da versão
