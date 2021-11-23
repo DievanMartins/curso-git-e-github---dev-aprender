@@ -1,4 +1,4 @@
-curso de git giihub - dev aprender
+curso de Git e Github - dev aprender
 git init = para iniciar um projeto git.
 git add "nome do arquivo" = para adicionar o arquivo no controle de versão.
 git status = mostrar se os arquivos já estão incluidos no versionamento de arquivos.
