@@ -1,12 +1,18 @@
 curso de Git e Github - dev aprender
-git init = para iniciar um projeto git.
+git init = inicializa um novo repositório.
 git add "nome do arquivo" = para adicionar o arquivo no controle de versão.
 git status = mostrar se os arquivos já estão incluidos no versionamento de arquivos.
-git add . = para adicionar vários arquivos de uma vez só.
-git commit -m "commit inicial" = para cria a primeira versão do código. Boa prática é escrever o que foi feito no código entre aspas.
+git add . = adiciona os arquivos atuais ao próximo commit.
+git status = verifica o status atual dos repositórios git.
+git commit -m "commit inicial" = cria um novo commit com uma mensagem.
 git remote add origin + link = para definir para onde o código será enviado. 
-git pish = para enviar os arquivos para gtihub.
+git push = envia as atualizações para a nuvem na branch atualmente ativa.
 git push --set-upstream origin master = usase para branch, neste a caso a master.
+Git branch =permite listar e ver qual branch está ativa atualmente.
+Git branch + nome_da_branch = permite mudar para uma nova branch. 
+Git branch -b “nome da branch de origem” “nome da nova branch” = permite mudar e criar uma nova branch com base em outra.
+Git checkout + nome_da_nova_branch = para usar outra branch.
+Git pull = atualiza a branch atualmente ativa.
 ________________________________________________________
 ciclo de atualização do código
 teste de atualização
@@ -16,3 +22,36 @@ git reflog = mostra as informações através dos commits criados.
 ___________________________________________________________
 como navegar entre as versões dos seus códigos
 git reset --hard + código da versão
+_______________________________________________________
+O que são branches e como criar uma
+Branches são caminhos que você pode seguir no desenvolvimento de projeto.
+Git branch =permite listar e ver qual branch está ativa atualmente.
+Git branch + nome_da_branch = permite mudar para uma nova branch. 
+Git branch -b “nome da branch de origem” “nome da nova branch” = permite mudar e criar uma nova branch com base em outra.
+Git checkout + nome_da_nova_branch = para usar outra branch.
+________________________________________________________________
+Git merge, como unir o código.
+Antes de fazer o git merge, temos que fazer o git pull. O git pull vai nos informar se estamos com os código mais atualizados. Logo após usamos o git merge para unir as informações das branchs.
+Git merge ”branch a receber merge” = permite fazer o merge da branch ativa atualmente com outra branch.
+Passos para trabalhar com várias branchs:
+Git pull da branch principal.
+Gerar uma nova barnch a partir da branch principal.
+Trabalhar e adicionar novas funcionalidades na nova branch que criou.
+Finalizar o trabalho na branch temporária.
+Git checkout na branch principal.
+Git pull
+Git pull = atualiza a branch atualmente ativa.
+Mergiar (unir) o código da branch temporário com branch principal (depois de testar).
+Git push da branch principal.	
+Criar uma branch tento indicando qual é a branch principal.
+git checkout -b sistema master
+para voltar para branch pruncipal
+git checkout master
+pull request um merge democrático
+solicita que alguém aprove o commit
+git ignore
+para usar na branch principal.
+pode haver casos onde você não vai querer enviar arquivos para o controle de versão.
+Touch .gitignore = cria um arquivo .gitignore. Dentro desse arquivo você seleciona quais arquivos você não quer se seja enviado para controla de versão.
+
+
