@@ -33,6 +33,7 @@ ________________________________________________________________
 Git merge, como unir o código.
 Antes de fazer o git merge, temos que fazer o git pull. O git pull vai nos informar se estamos com os código mais atualizados. Logo após usamos o git merge para unir as informações das branchs.
 Git merge ”branch a receber merge” = permite fazer o merge da branch ativa atualmente com outra branch.
+
 Passos para trabalhar com várias branchs:
 Git pull da branch principal.
 Gerar uma nova barnch a partir da branch principal.
@@ -47,6 +48,7 @@ Criar uma branch tento indicando qual é a branch principal.
 git checkout -b sistema master
 para voltar para branch pruncipal
 git checkout master
+
 pull request um merge democrático
 solicita que alguém aprove o commit
 git ignore
